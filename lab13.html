@@ -1,0 +1,404 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <title>QuickEats Food Delivery</title> 
+
+  
+
+    <style> 
+
+        body { 
+
+            margin: 0; 
+
+            font-family: Arial, sans-serif; 
+
+        } 
+
+  
+
+        header { 
+
+            background: #ff4d4d; 
+
+            color: white; 
+
+            text-align: center; 
+
+            padding: 20px; 
+
+        } 
+
+  
+
+        nav { 
+
+            background: #333; 
+
+            padding: 10px; 
+
+            text-align: center; 
+
+        } 
+
+  
+
+        nav a { 
+
+            color: white; 
+
+            margin: 15px; 
+
+            text-decoration: none; 
+
+            font-weight: bold; 
+
+        } 
+
+  
+
+        nav a:hover { 
+
+            color: #ff4d4d; 
+
+        } 
+
+  
+
+        .welcome { 
+
+            text-align: center; 
+
+            padding: 50px; 
+
+            background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') no-repeat center; 
+
+            background-size: cover; 
+
+            color: white; 
+
+        } 
+
+  
+
+        .welcome h1 { 
+
+            font-size: 40px; 
+
+        } 
+
+  
+
+        .btn { 
+
+            background: #ff4d4d; 
+
+            color: white; 
+
+            padding: 10px 20px; 
+
+            border: none; 
+
+            cursor: pointer; 
+
+        } 
+
+  
+
+        .categories { 
+
+            padding: 30px; 
+
+            text-align: center; 
+
+        } 
+
+  
+
+        .category-container { 
+
+            display: flex; 
+
+            justify-content: space-around; 
+
+            flex-wrap: wrap; 
+
+        } 
+
+  
+
+        .category { 
+
+            width: 200px; 
+
+            margin: 10px; 
+
+        } 
+
+  
+
+        .category img { 
+
+            width: 100%; 
+
+            border-radius: 10px; 
+
+        } 
+
+  
+
+        .menu { 
+
+            padding: 30px; 
+
+            background: #f4f4f4; 
+
+            text-align: center; 
+
+        } 
+
+  
+
+        .menu-items { 
+
+            display: flex; 
+
+            justify-content: space-around; 
+
+            flex-wrap: wrap; 
+
+        } 
+
+  
+
+        .item { 
+
+            width: 250px; 
+
+            background: white; 
+
+            padding: 15px; 
+
+            margin: 10px; 
+
+            border-radius: 10px; 
+
+        } 
+
+  
+
+        .contact { 
+
+            padding: 30px; 
+
+            text-align: center; 
+
+        } 
+
+  
+
+        footer { 
+
+            background: #222; 
+
+            color: white; 
+
+            text-align: center; 
+
+            padding: 15px; 
+
+            margin-top: 20px; 
+
+        } 
+
+    </style> 
+
+</head> 
+
+  
+
+<body> 
+
+  
+
+<header> 
+
+    <h1>QuickEats Food Delivery</h1> 
+
+    <p>Fast, Fresh & Delivered Hot!</p> 
+
+</header> 
+
+  
+
+<nav> 
+
+    <a href="#">Home</a> 
+
+    <a href="#">Menu</a> 
+
+    <a href="#">Order Online</a> 
+
+    <a href="#">Contact Us</a> 
+
+</nav> 
+
+  
+
+<section class="welcome"> 
+
+    <h1>Delicious Food Delivered to Your Doorstep</h1> 
+
+    <p>Order your favorite meals anytime and enjoy quick delivery with the best taste in town.</p> 
+
+    <button class="btn">Order Now</button> 
+
+</section> 
+
+  
+
+<section class="categories"> 
+
+    <h2>Food Categories</h2> 
+
+  
+
+    <div class="category-container"> 
+
+        <div class="category"> 
+
+            <img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65"> 
+
+            <h3>Pizza</h3> 
+
+            <p>Cheesy and delicious pizzas</p> 
+
+        </div> 
+
+  
+
+        <div class="category"> 
+
+            <img src="https://images.unsplash.com/photo-1550547660-d9450f859349"> 
+
+            <h3>Burgers</h3> 
+
+            <p>Juicy and tasty burgers</p> 
+
+        </div> 
+
+  
+
+        <div class="category"> 
+
+            <img src="https://images.unsplash.com/photo-1604908176997-4312c8c6a4d7"> 
+
+            <h3>Biryani</h3> 
+
+            <p>Authentic spicy biryani</p> 
+
+        </div> 
+
+  
+
+        <div class="category"> 
+
+            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307"> 
+
+            <h3>Desserts</h3> 
+
+            <p>Sweet treats to enjoy</p> 
+
+        </div> 
+
+    </div> 
+
+</section> 
+
+  
+
+<section class="menu"> 
+
+    <h2>Popular Dishes</h2> 
+
+  
+
+    <div class="menu-items"> 
+
+        <div class="item"> 
+
+            <h3>Margherita Pizza</h3> 
+
+            <p>Classic cheese pizza with fresh toppings</p> 
+
+            <p>₹299</p> 
+
+            <button class="btn">Add to Cart</button> 
+
+        </div> 
+
+  
+
+        <div class="item"> 
+
+            <h3>Chicken Burger</h3> 
+
+            <p>Crispy chicken with fresh veggies</p> 
+
+            <p>₹199</p> 
+
+            <button class="btn">Add to Cart</button> 
+
+        </div> 
+
+  
+
+        <div class="item"> 
+
+            <h3>Hyderabadi Biryani</h3> 
+
+            <p>Rich and aromatic traditional biryani</p> 
+
+            <p>₹249</p> 
+
+            <button class="btn">Add to Cart</button> 
+
+        </div> 
+
+    </div> 
+
+</section> 
+
+  
+
+<section class="contact"> 
+
+    <h2>Contact Us</h2> 
+
+    <p>📞 Phone: +91 9876543210</p> 
+
+    <p>📧 Email: support@quickeats.com</p> 
+
+    <p>📍 Location: Chennai, India</p> 
+
+    <p>Follow us: Facebook | Instagram | Twitter</p> 
+
+</section> 
+
+  
+
+<footer> 
+
+    <p>© 2026 QuickEats Food Delivery | All Rights Reserved</p> 
+
+</footer> 
+
+  
+
+</body> 
+</html>
