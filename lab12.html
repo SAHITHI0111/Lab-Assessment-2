@@ -1,0 +1,227 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<head> 
+
+    <title>Student Registration Portal</title> 
+
+    <style> 
+
+        body { 
+
+            margin: 0; 
+
+            font-family: Arial; 
+
+            background-color: skyblue; 
+
+        } 
+
+  
+
+        h1 { 
+
+            text-align: center; 
+
+            padding: 20px; 
+
+        } 
+
+  
+
+        .nav { 
+
+            text-align: center; 
+
+            margin-bottom: 20px; 
+
+        } 
+
+  
+
+        .nav a { 
+
+            background-color: darkblue; 
+
+            color: white; 
+
+            padding: 10px 15px; 
+
+            margin: 5px; 
+
+            text-decoration: none; 
+
+            border-radius: 5px; 
+
+        } 
+
+  
+
+        .section { 
+
+            background-color: darkblue; 
+
+            color: white; 
+
+            margin: 20px; 
+
+            padding: 20px; 
+
+            border-radius: 10px; 
+
+        } 
+
+  
+
+        input, select { 
+
+            width: 100%; 
+
+            padding: 8px; 
+
+            margin: 5px 0 10px 0; 
+
+            border-radius: 5px; 
+
+            border: none; 
+
+        } 
+
+  
+
+        button { 
+
+            padding: 10px; 
+
+            width: 100%; 
+
+            background-color: green; 
+
+            color: white; 
+
+            border: none; 
+
+            border-radius: 5px; 
+
+        } 
+
+    </style> 
+
+</head> 
+
+<body> 
+
+  
+
+    <h1>Student Registration Portal</h1> 
+
+  
+
+    <div class="nav"> 
+
+        <a href="#personal">Personal Info</a> 
+
+        <a href="#academic">Academic Details</a> 
+
+        <a href="#address">Address</a> 
+
+        <a href="#account">Account</a> 
+
+    </div> 
+
+  
+
+    <form onsubmit="alert('Form Submitted Successfully')"> 
+
+  
+
+        <div class="section" id="personal"> 
+
+            <h2>Personal Information</h2> 
+
+            <input type="text" placeholder="Full Name"> 
+
+            <input type="date"> 
+
+            <select> 
+
+                <option>Gender</option> 
+
+                <option>Male</option> 
+
+                <option>Female</option> 
+
+            </select> 
+
+            <input type="email" placeholder="Email"> 
+
+            <input type="text" placeholder="Mobile Number"> 
+
+        </div> 
+
+  
+
+        <div class="section" id="academic"> 
+
+            <h2>Academic Details</h2> 
+
+            <input type="text" placeholder="Register Number"> 
+
+            <input type="text" placeholder="Degree Program"> 
+
+            <input type="text" placeholder="Department"> 
+
+            <input type="text" placeholder="Year of Study"> 
+
+        </div> 
+
+  
+
+        <div class="section" id="address"> 
+
+            <h2>Address Information</h2> 
+
+            <input type="text" placeholder="Door Number"> 
+
+            <input type="text" placeholder="Street Name"> 
+
+            <input type="text" placeholder="City"> 
+
+            <input type="text" placeholder="State"> 
+
+            <input type="text" placeholder="Pincode"> 
+
+        </div> 
+
+  
+
+        <div class="section" id="account"> 
+
+            <h2>Account Credentials</h2> 
+
+            <input type="text" placeholder="Username"> 
+
+            <input type="password" placeholder="Password"> 
+
+            <input type="password" placeholder="Confirm Password"> 
+
+        </div> 
+
+  
+
+        <div class="section"> 
+
+            <button type="submit">Submit</button> 
+
+        </div> 
+
+  
+
+    </form> 
+
+  
+
+</body> 
+
+</html> 
